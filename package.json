@@ -1,0 +1,20 @@
+{
+  "name": "htmx-jsx-template",
+  "version": "1.0.0",
+  "description": "HTMX extension for rendering (precompiled) JSX templates for a JSON response",
+  "main": "jsx-template.js",
+  "author": "Bence Lukács (numasi)",
+  "licence": "MIT",
+  "homepage": "https://github.com/numasi/htmx-jsx-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numasi/htmx-jsx-template.git"
+  },
+  "keywords": [
+    "htmx",
+    "htmx-extension",
+    "jsx",
+    "template",
+    "json"
+  ]
+}
