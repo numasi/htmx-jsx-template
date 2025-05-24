@@ -1,10 +1,10 @@
-### HTMX extension for rendering (precompiled) JSX templates from JSON responses
+### HTMX extension for rendering (preprocessed) JSX templates from JSON responses
 
 ## Use
 
-First you need your JSX components transpiled and bundled at `dist/templates.js`. Check out my example repo on how to get it done [here](https://github.com/numasi/htmx-jsx-json-example).
+First you need your JSX components transpiled and bundled at `dist/templates.js`. Check out my example repo on how to get it done [here](https://github.com/numasi/htmx-jsx-json-example/)
 
-Then using it by side with [htmx-json-attribute](htps://github.com/numasi/htmx-json-attribute), one can do this.
+Using it by side with [htmx-json-attribute](htps://github.com/numasi/htmx-json-attribute), one can do this:
 
 
 ```
