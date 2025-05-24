@@ -30,7 +30,7 @@ Using it by side with [htmx-json-attribute](htps://github.com/numasi/htmx-json-a
 
 ## How it works
 
-It depends on JSX components transpiled using kita-js HTML string generation funcition instead of React's classic createElement. The extension looks for this at a file `dist/template.js`, importing all the components from there upon initaliazation, and find them upon a response by matching component function names to `hx-template` attributes defined by the extension, passing the parsed JSON responses as parameters along the way.
+It depends on JSX components transpiled with kita-js HTML string generation funcition in place of React's classic createElement. The extension looks for this bundle at file `dist/template.js`, importing all the components from there upon initaliazation, and serve them upon a response by matching component function name to `hx-template` attribute (defined by the extension), passing the parsed JSON response as parameter.
 
 ## TODO
 
